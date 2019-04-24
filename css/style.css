@@ -1456,7 +1456,13 @@ Topbar
   transition: 0.2s ease-in;
   width: 100%;
   position: absolute;
-  z-index: 20; }
+  z-index: 20; 
+  background: -moz-linear-gradient(
+                bottom,
+                rgba(0,0,0,0.01) 0%,
+                rgba(0, 0, 0, 0.61) 50%,
+                rgba(0,0,0,1) 100%
+                ); }
 
 /*******************
 Header 6
