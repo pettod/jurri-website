@@ -37,14 +37,14 @@ Static slide 10
   overflow: auto;
   background-size: cover;
   background-position: center center; }
-  @media all and (min-width: 1500px) {
+  @media all and (min-aspect-ratio: 1/1) {
     .static-slider-head .title {
       color: #ffffff;
       font-weight: 700;
       font-size: 70px;
       line-height: 100px; }
   }
-  @media all and (max-width: 1499px) {
+  @media all and (max-aspect-ratio: 1/1) {
     .static-slider-head .title {
       color: #ffffff;
       font-weight: 700;
