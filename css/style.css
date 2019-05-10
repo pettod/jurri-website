@@ -117,10 +117,16 @@ h6 {
   color: #3e4555;
   font-family: "Montserrat", sans-serif; }
 
-h1 {
-  line-height: 40px;
-  font-size: 36px; }
-
+@media all and (min-aspect-ratio: 1/1) {
+  h1 {
+    line-height: 40px;
+    font-size: 36px; }
+}
+@media all and (max-aspect-ratio: 1/1) {
+  h1 {
+    line-height: 40px;
+    font-size: 30px; }
+}
 h2 {
   line-height: 36px;
   font-size: 30px; }
