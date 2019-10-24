@@ -2699,3 +2699,11 @@ File: scss
     padding: 40px; }
   .dropdown-submenu > .dropdown-menu.show {
     display: block; } }
+
+.privacy-link {
+  color: white !important;
+}
+.privacy-link:hover {
+  color: #316ce8 !important;
+  text-decoration: underline;
+}
