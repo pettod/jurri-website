@@ -2704,6 +2704,6 @@ File: scss
   color: white !important;
 }
 .privacy-link:hover {
-  color: #316ce8 !important;
+  color: white !important;
   text-decoration: underline;
 }
